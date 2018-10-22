@@ -24,8 +24,8 @@ type Descheduler struct {
 
 type DeschedulerSpec struct {
 	// BaseImage is the image to be used for descheduler
-	BaseImage string `json:"baseImage,omitempty"`
-	Time   time.Duration `json:"time,omitempty"`
+	BaseImage string        `json:"baseImage,omitempty"`
+	Time      time.Duration `json:"time,omitempty"`
 }
 
 type DeschedulerStatus struct {
